@@ -331,63 +331,63 @@ section {
     color: var(--white);
 }
 
-.offer {
+.offers {
     background-color: var(--bg-1);
 }
 
-.offer .box-container {
+.offers .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
 }
 
-.offer .box-container .box {
+.offers .box-container .box {
     text-align: center;
     padding: 2rem;
     border: var(--green-border);
     border-radius: .5rem;
 }
 
-.offer .box-container .box:hover {
+.offers .box-container .box:hover {
     background-color: rgb(5, 5, 5);
     transform: translateY(-3%);
 }
 
-.offer .box-container .box h3 {
+.offers .box-container .box h3 {
     font-size: 2rem;
     color: var(--white);
     font-weight: 700;
 }
 
-.offer .box-container .box .amount {
+.offers .box-container .box .amount {
     font-size: 4rem;
     font-weight: 400;
     color: var(--green);
     padding-top: .8rem;
 }
 
-.offer .box-container .box .amount span {
+.offers .box-container .box .amount span {
     font-size: 2.5rem;
     color: var(--white);
 }
 
-.offer .box-container .box .list {
+.offers .box-container .box .list {
     padding: 1rem 0;
     text-align: center;
 }
 
 
-.offer .box-container .box .list p {
+.offers .box-container .box .list p {
     padding: 1.5rem 0;
     font-size: 1.7rem;
     color: var(--white);
 }
 
-.offer .box-container .box .list p i {
+.offers .box-container .box .list p i {
     color: var(--green);
 }
 
-.offer .box-container .box .list p i.fa-times {
+.offers .box-container .box .list p i.fa-times {
     color: red;
 }
 
@@ -521,6 +521,8 @@ section {
     padding: 1rem 0;
 }
 
+
+
 .footer .box-container .box h3 {
     font-size: 2.2rem;
     color: var(--white);
@@ -533,6 +535,7 @@ section {
     padding: 1rem 0;
     line-height: 2;
     font-weight: 500;
+    text-transform: none;
 }
 
 .footer .box-container .box p i {
@@ -681,14 +684,14 @@ section {
         font-size: 2rem;
     }
 
-    .offer .box-container {
+    .offers .box-container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
 
-    .offer .box-container .box {
+    .offers .box-container .box {
         padding: 2rem 8rem;
     }
 
@@ -733,14 +736,14 @@ section {
         font-size: 2.2rem;
     }
 
-    .offer .box-container {
+    .offers .box-container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
 
-    .offer .box-container .box {
+    .offers .box-container .box {
         padding: 2rem 8rem;
     }
 
@@ -794,14 +797,14 @@ section {
         padding-right: 3rem;
     }
 
-    .offer .box-container {
+    .offers .box-container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
 
-    .offer .box-container .box {
+    .offers .box-container .box {
         padding: 2rem 6rem;
     }
 

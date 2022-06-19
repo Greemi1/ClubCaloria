@@ -45,6 +45,10 @@ const reviewsSwiper = new Swiper(".reviews-slider", {
     spaceBetween: 20,
     grabCursor: true,
     loop: true,
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
