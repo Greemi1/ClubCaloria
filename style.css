@@ -293,7 +293,6 @@ section {
     flex: 1 1 30%;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .features .box-container .box .image {
